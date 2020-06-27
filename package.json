@@ -1,0 +1,24 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "This is a test repository for git and node.",
+  "main": "index.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://muhammadirfanulkarim@bitbucket.org/muhammadirfanulkarim/git-test.git"
+  },
+  "author": "Irfanul Karim",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/muhammadirfanulkarim/git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
